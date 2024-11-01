@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load((open("C:/Users/Yash/Desktop/ExcelR Project/P357/App/model.sav", 'rb')))
+model = pickle.load((open("model.sav", 'rb')))
 
 
 def bankruptcy(input_data):
